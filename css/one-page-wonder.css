@@ -1,6 +1,23 @@
 body {
   font-family: 'Lato';
 }
+li{
+    list-style-type: none !important;
+}
+a{
+    text-decoration: none !important;
+    display: inline-block !important;
+}
+
+.nav-link{
+    list-style-type: none;
+    float: right;
+    display: inline-block;
+}
+
+li{
+    display: inline-block;
+    margin-right: 25px;
 
 h1,
 h2,
@@ -21,7 +38,7 @@ h6 {
 }
 
 .bg-black {
-  background-color: #000 !important;
+  background-color: orange !important;
 }
 
 .rounded-pill {
@@ -33,7 +50,6 @@ h6 {
   padding-bottom: 1rem;
   background-color: rgba(0, 0, 0, 0.7);
 }
-
 .navbar-custom .navbar-brand {
   text-transform: uppercase;
   font-size: 1rem;
@@ -58,6 +74,9 @@ header.masthead {
   background-position: center center;
   background-attachment: scroll;
   background-size: cover;
+}
+.pink{
+  background-color: pink;
 }
 
 header.masthead .masthead-content {
@@ -151,4 +170,13 @@ header.masthead .bg-circle-4 {
 
 .btn-secondary:focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+}
+.gif{
+  height: 80px !important;
+  width: 70px !important;
+
+}
+.photo{
+  max-height: 200px;
+  max-width: 200px;
 }
